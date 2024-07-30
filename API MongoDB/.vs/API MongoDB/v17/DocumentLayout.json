@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|c:\\users\\thiag\\desktop\\2023_4s\\api mongodb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|c:\\users\\thiag\\desktop\\2023_4s\\api mongodb\\domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|solutionrelative:domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|c:\\users\\thiag\\desktop\\2023_4s\\api mongodb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|c:\\users\\thiag\\desktop\\2023_4s\\api mongodb\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|c:\\users\\thiag\\desktop\\2023_4s\\api mongodb\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|c:\\users\\thiag\\desktop\\2023_4s\\api mongodb\\domains\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|solutionrelative:domains\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|c:\\users\\thiag\\desktop\\2023_4s\\api mongodb\\domains\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|solutionrelative:domains\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|c:\\users\\thiag\\desktop\\2023_4s\\api mongodb\\domains\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695E7180-0BA1-4038-A617-4410921068ED}|API MongoDB.csproj|solutionrelative:domains\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAswFQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:00:29.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Controllers\\ClientController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T23:57:50.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Domains\\Order.cs",
+              "RelativeDocumentMoniker": "Domains\\Order.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Domains\\Order.cs",
+              "RelativeToolTip": "Domains\\Order.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T23:57:50.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Domains\\Users.cs",
+              "RelativeDocumentMoniker": "Domains\\Users.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Domains\\Users.cs",
+              "RelativeToolTip": "Domains\\Users.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T23:57:50.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwFkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T23:57:50.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAIwBcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T23:57:50.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Domains\\Client.cs",
+              "RelativeDocumentMoniker": "Domains\\Client.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Domains\\Client.cs",
+              "RelativeToolTip": "Domains\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T23:57:50.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Domains\\Product.cs",
+              "RelativeDocumentMoniker": "Domains\\Product.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\API MongoDB\\Domains\\Product.cs",
+              "RelativeToolTip": "Domains\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T23:57:50.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API MongoDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6987bd02bd01c6e80ebe41ff12881e7ea8563e09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74fb4b1f783bb6bd0f86dd6d2c271108c8ecf41e")]
 [assembly: System.Reflection.AssemblyProductAttribute("API MongoDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API MongoDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
