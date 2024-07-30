@@ -73,8 +73,7 @@ namespace API_MongoDB.Controllers
                 var update = Builders<Users>.Update
                     .Set(p => p.Name, usersToUpdate.Name)
                     .Set(p => p.Email, usersToUpdate.Email)
-                    .Set(p => p.Senha, usersToUpdate.Senha)
-                    .Set(p => p.Cidade, usersToUpdate.Cidade);
+                    .Set(p => p.Senha, usersToUpdate.Senha);
 
                 var result = await _users.UpdateOneAsync(filter, update);
 

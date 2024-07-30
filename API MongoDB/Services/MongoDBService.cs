@@ -25,9 +25,10 @@ namespace API_MongoDB.Services
             _configuration = configuration;
 
             //Acessa a string de conexão
-            var connectionString = _configuration.GetConnectionString("DbConnection");
+            var connectionString = "mongodb://localhost:27017/ProductDatabase_Tarde";
+            //var connectionString = _configuration.GetConnectionString("DbConnection");
 
-            //Trasnforma a string obtida em MongoUrl
+            //Transforma a string obtida em MongoUrl
             var mongoUrl = MongoUrl.Create(connectionString);
 
             //Cria um client

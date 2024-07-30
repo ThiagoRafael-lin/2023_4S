@@ -1,5 +1,6 @@
 ﻿using API_MongoDB.Domains;
 using API_MongoDB.Services;
+using API_MongoDB.ViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
@@ -12,11 +13,15 @@ namespace API_MongoDB.Controllers
     [Produces("application/json")]
     public class OrderController : ControllerBase
     {
-        private readonly IMongoCollection<Order> _order;
+        private readonly IMongoCollection<Order>? _order;
+        private readonly IMongoCollection<Client>? _client;
+        private readonly IMongoCollection<Product>? _product;
 
         public OrderController(MongoDBService mongoDbService)
         {
-            _order = mongoDbService.GetDatabase.GetCollection<Order>("order");
+            _order = mongoDbService.GetDatabase?.GetCollection<Order>("order");
+            _client = mongoDbService.GetDatabase?.GetCollection<Client>("client");
+            _product = mongoDbService.GetDatabase?.GetCollection<Product>("product");
         }
 
         [HttpGet]
@@ -34,12 +39,35 @@ namespace API_MongoDB.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Order order)
+        public async Task<ActionResult<Order>> Post(OrderViewModel orderViewModel)
         {
             try
             {
-                await _order.InsertOneAsync(order);
+                Order order = new();
+                order.Id = orderViewModel.Id;
+                order.Date = orderViewModel.Date;
+                order.Status = orderViewModel.Status;
+                order.ProductId = orderViewModel.ProductId;
+                order.ClientId = orderViewModel.ClientId;
+
+                var client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
+
+                var filter = Builders<Product>.Filter.In(p => p.Id, productIds.Select(id => ObjectId.Parse(id)));
+
+                // Realizar a busca na coleção de produtos com o filtro aplicado
+                List<Product> products = await _product.Find(filter).ToListAsync();
+
+                if (client == null)
+                {
+                    return NotFound("Cliente não encontrado");
+                }
+
+                order.Client = client;
+
+                await _order!.InsertOneAsync(order);
+
                 return StatusCode(201, order);
+
             }
             catch (Exception e)
             {

@@ -12,12 +12,18 @@ namespace API_MongoDB.Domains
         [BsonElement("userId")]
         public string? UserID { get; set; }
         [BsonElement("cpf")]
-        public int Cpf { get; set; }
+        public string? Cpf { get; set; }
         [BsonElement("Phone")]
-        public int Phone {  get; set; }
+        public string? Phone {  get; set; }
         [BsonElement("address")]
         public string? Address { get; set; }
-        [BsonElement("rg")]
-        public int Rg { get; set; }
+
+        public Dictionary<string, string> AdditionalAttributes { get; set; }
+
+        public Client()
+        {
+            AdditionalAttributes = new Dictionary<string, string>();
+        }
+
     }
 }

@@ -17,7 +17,12 @@ namespace API_MongoDB.Domains
         [BsonElement("senha")]
         public string? Senha { get; set; }
 
-        [BsonElement("cidade")]
-        public string? Cidade { get; set; }
+        public Dictionary<string, string> AdditionalAttributes { get; set; }
+
+        public Users()
+        {
+            AdditionalAttributes = new Dictionary<string, string>();
+        }
+
     }
 }
