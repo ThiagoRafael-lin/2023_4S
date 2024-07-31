@@ -29,8 +29,24 @@ namespace API_MongoDB.Controllers
         {
             try
             {
-                var order = await _order.Find(FilterDefinition<Order>.Empty).ToListAsync();
-                return Ok(order);
+                var orders = await _order.Find(FilterDefinition<Order>.Empty).ToListAsync();
+                
+                foreach (var order in orders)
+                {
+                    if (order.ProductId != null)
+                    {
+                        var filter = Builders<Product>.Filter.In(p => p.Id, order.ProductId);
+
+                        order.Products = await _product.Find(filter).ToListAsync();
+
+                    }
+                    if (order.ClientId != null)
+                    {
+                        order.Client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
+                    }
+
+                }
+                return Ok(orders);
             }
             catch (Exception e)
             {
@@ -52,17 +68,17 @@ namespace API_MongoDB.Controllers
 
                 var client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
 
-                var filter = Builders<Product>.Filter.In(p => p.Id, productIds.Select(id => ObjectId.Parse(id)));
+                //var filter = Builders<Product>.Filter.In(p => p.Id, productIds.Select(id => ObjectId.Parse(id)));
 
                 // Realizar a busca na coleção de produtos com o filtro aplicado
-                List<Product> products = await _product.Find(filter).ToListAsync();
+                //List<Product> products = await _product.Find(filter).ToListAsync();
 
                 if (client == null)
                 {
                     return NotFound("Cliente não encontrado");
                 }
 
-                order.Client = client;
+                //order.Client = client;
 
                 await _order!.InsertOneAsync(order);
 
@@ -103,7 +119,7 @@ namespace API_MongoDB.Controllers
                     .Set(p => p.Status, orderToUpdate.Status)
                     .Set(p => p.Products, orderToUpdate.Products)
                     .Set(p => p.Client, orderToUpdate.Client);
-                    
+
                 var result = await _order.UpdateOneAsync(filter, update);
 
                 return Ok($"Produto atualizado com sucesso");
@@ -120,13 +136,20 @@ namespace API_MongoDB.Controllers
         {
             try
             {
-                var filter = Builders<Order>.Filter.Eq("Id", ObjectId.Parse(id));
-                var order = await _order.Find(filter).FirstOrDefaultAsync();
+                //var filter = Builders<Order>.Filter.Eq("Id", ObjectId.Parse(id));
+                var order = await _order.Find(x => x.Id == id).FirstOrDefaultAsync();
+                
+                    if (order.ProductId != null)
+                    {
+                        var filter = Builders<Product>.Filter.In(p => p.Id, order.ProductId);
 
-                if (order == null)
-                {
-                    throw new Exception($"Produto com ID {id} não encontrado.");
-                }
+                        order.Products = await _product.Find(filter).ToListAsync();
+
+                    }
+                    if (order.ClientId != null)
+                    {
+                        order.Client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
+                    }
 
                 return order;
             }
