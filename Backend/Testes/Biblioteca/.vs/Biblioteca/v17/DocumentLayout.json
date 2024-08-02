@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\Biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78D3C155-3206-4FEF-8551-781A44A9E9F4}|Biblioteca.csproj|c:\\users\\thiag\\desktop\\2023_4s\\biblioteca\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D3C155-3206-4FEF-8551-781A44A9E9F4}|Biblioteca.csproj|solutionrelative:biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632AB3FB-E886-4710-8634-9E2103F5C7E5}|..\\Biblioteca.Test\\Biblioteca.Test.csproj|c:\\users\\thiag\\desktop\\2023_4s\\biblioteca.test\\bibliotecaunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BibliotecaUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\Biblioteca.Test\\BibliotecaUnitTest.cs",
+              "RelativeDocumentMoniker": "..\\Biblioteca.Test\\BibliotecaUnitTest.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\Biblioteca.Test\\BibliotecaUnitTest.cs",
+              "RelativeToolTip": "..\\Biblioteca.Test\\BibliotecaUnitTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T23:45:19.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Biblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\2023_4S\\Biblioteca\\Biblioteca.cs",
+              "RelativeDocumentMoniker": "Biblioteca.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\2023_4S\\Biblioteca\\Biblioteca.cs",
+              "RelativeToolTip": "Biblioteca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T23:45:19.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

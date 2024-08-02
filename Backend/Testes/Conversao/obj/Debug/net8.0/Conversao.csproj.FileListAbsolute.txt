@@ -1,0 +1,15 @@
+C:\Users\thiag\Desktop\2023_4S\Conversao\bin\Debug\net8.0\Conversao.exe
+C:\Users\thiag\Desktop\2023_4S\Conversao\bin\Debug\net8.0\Conversao.deps.json
+C:\Users\thiag\Desktop\2023_4S\Conversao\bin\Debug\net8.0\Conversao.runtimeconfig.json
+C:\Users\thiag\Desktop\2023_4S\Conversao\bin\Debug\net8.0\Conversao.dll
+C:\Users\thiag\Desktop\2023_4S\Conversao\bin\Debug\net8.0\Conversao.pdb
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\Conversao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\Conversao.AssemblyInfoInputs.cache
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\Conversao.AssemblyInfo.cs
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\Conversao.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\Conversao.sourcelink.json
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\Conversao.dll
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\refint\Conversao.dll
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\Conversao.pdb
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\Conversao.genruntimeconfig.cache
+C:\Users\thiag\Desktop\2023_4S\Conversao\obj\Debug\net8.0\ref\Conversao.dll

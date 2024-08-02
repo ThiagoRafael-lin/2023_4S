@@ -1,0 +1,15 @@
+C:\Users\thiag\Desktop\2023_4S\Validacao\bin\Debug\net8.0\Validacao.exe
+C:\Users\thiag\Desktop\2023_4S\Validacao\bin\Debug\net8.0\Validacao.deps.json
+C:\Users\thiag\Desktop\2023_4S\Validacao\bin\Debug\net8.0\Validacao.runtimeconfig.json
+C:\Users\thiag\Desktop\2023_4S\Validacao\bin\Debug\net8.0\Validacao.dll
+C:\Users\thiag\Desktop\2023_4S\Validacao\bin\Debug\net8.0\Validacao.pdb
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\Validacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\Validacao.AssemblyInfoInputs.cache
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\Validacao.AssemblyInfo.cs
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\Validacao.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\Validacao.sourcelink.json
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\Validacao.dll
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\refint\Validacao.dll
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\Validacao.pdb
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\Validacao.genruntimeconfig.cache
+C:\Users\thiag\Desktop\2023_4S\Validacao\obj\Debug\net8.0\ref\Validacao.dll
