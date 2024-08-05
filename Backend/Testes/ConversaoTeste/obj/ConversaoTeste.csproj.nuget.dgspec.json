@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\Desktop\\2023_4S\\ConversaoTeste\\ConversaoTeste.csproj": {}
+    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ConversaoTeste\\ConversaoTeste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\Desktop\\2023_4S\\ConversaoTeste\\ConversaoTeste.csproj": {
+    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ConversaoTeste\\ConversaoTeste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\2023_4S\\ConversaoTeste\\ConversaoTeste.csproj",
+        "projectUniqueName": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ConversaoTeste\\ConversaoTeste.csproj",
         "projectName": "ConversaoTeste",
-        "projectPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\ConversaoTeste\\ConversaoTeste.csproj",
-        "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\ConversaoTeste\\obj\\",
+        "projectPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ConversaoTeste\\ConversaoTeste.csproj",
+        "packagesPath": "C:\\Users\\47195701867\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ConversaoTeste\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\47195701867\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\thiag\\Desktop\\2023_4S\\Conversao\\Conversao.csproj": {
-                "projectPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\Conversao\\Conversao.csproj"
+              "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\Conversao\\Conversao.csproj": {
+                "projectPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\Conversao\\Conversao.csproj"
               }
             }
           }
@@ -39,11 +42,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,21 +81,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\thiag\\Desktop\\2023_4S\\Conversao\\Conversao.csproj": {
+    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\Conversao\\Conversao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\2023_4S\\Conversao\\Conversao.csproj",
+        "projectUniqueName": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\Conversao\\Conversao.csproj",
         "projectName": "Conversao",
-        "projectPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\Conversao\\Conversao.csproj",
-        "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\Conversao\\obj\\",
+        "projectPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\Conversao\\Conversao.csproj",
+        "packagesPath": "C:\\Users\\47195701867\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\Conversao\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\47195701867\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,7 +107,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -118,11 +119,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -144,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

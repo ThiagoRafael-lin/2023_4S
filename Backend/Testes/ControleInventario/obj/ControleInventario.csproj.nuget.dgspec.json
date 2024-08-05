@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\source\\repos\\ControleInventario\\ControleInventario.csproj": {}
+    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ControleInventario\\ControleInventario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\source\\repos\\ControleInventario\\ControleInventario.csproj": {
+    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ControleInventario\\ControleInventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\source\\repos\\ControleInventario\\ControleInventario.csproj",
+        "projectUniqueName": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ControleInventario\\ControleInventario.csproj",
         "projectName": "ControleInventario",
-        "projectPath": "C:\\Users\\thiag\\source\\repos\\ControleInventario\\ControleInventario.csproj",
-        "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\source\\repos\\ControleInventario\\obj\\",
+        "projectPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ControleInventario\\ControleInventario.csproj",
+        "packagesPath": "C:\\Users\\47195701867\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\Testes\\ControleInventario\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\47195701867\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

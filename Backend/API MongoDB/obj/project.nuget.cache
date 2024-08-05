@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/iCZvUw6ddfuYYNJJP3idAVjLcflMDXOef5ozVsFI2uv/6GF0V5+8bigGTmPSXua7QR0sPj9s8qMhn0t6DKR9A==",
+  "dgSpecHash": "7FvVOE5XQ0DC+F4ZMcWQtYqj9xS3NRUB7r7R3pip2iUlSMuMxvz1GlTEt5gmmyR4ktB7WBg/vSmgI/cTLi7tMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\API MongoDB\\API MongoDB.csproj",
+  "projectFilePath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\API MongoDB\\API MongoDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\47195701867\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\47195701867\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
