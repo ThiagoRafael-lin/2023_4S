@@ -8,12 +8,9 @@ namespace ApiProduto.Interfaces
     {
         public void Cadastrar(Produto produto);
         public Produto BuscarPorId (Guid id);
-
-        public List<Produto> ListarTodos();
-
+        List<Produto> ListarTodos();
         void Deletar(Guid id);
-
-        void Atualizar(Produto produto);
+        void Atualizar(Produto produto, Guid id);
 
     }
 }

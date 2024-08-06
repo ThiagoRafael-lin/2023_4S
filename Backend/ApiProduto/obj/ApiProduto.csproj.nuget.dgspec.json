@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\ApiProduto\\ApiProduto.csproj": {}
+    "C:\\Users\\thiag\\Desktop\\2023_4S\\Backend\\ApiProduto\\ApiProduto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\ApiProduto\\ApiProduto.csproj": {
+    "C:\\Users\\thiag\\Desktop\\2023_4S\\Backend\\ApiProduto\\ApiProduto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\ApiProduto\\ApiProduto.csproj",
+        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\2023_4S\\Backend\\ApiProduto\\ApiProduto.csproj",
         "projectName": "ApiProduto",
-        "projectPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\ApiProduto\\ApiProduto.csproj",
-        "packagesPath": "C:\\Users\\47195701867\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\ApiProduto\\obj\\",
+        "projectPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\Backend\\ApiProduto\\ApiProduto.csproj",
+        "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thiag\\Desktop\\2023_4S\\Backend\\ApiProduto\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\47195701867\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -124,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
