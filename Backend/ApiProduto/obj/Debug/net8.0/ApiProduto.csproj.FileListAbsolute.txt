@@ -288,3 +288,5 @@ C:\Users\thiag\Desktop\2023_4S\Backend\ApiProduto\obj\Debug\net8.0\scopedcss\bun
 C:\Users\thiag\Desktop\2023_4S\Backend\ApiProduto\obj\Debug\net8.0\ApiProduto.csproj.Up2Date
 C:\Users\thiag\Desktop\2023_4S\Backend\ApiProduto\obj\Debug\net8.0\ApiProduto.genruntimeconfig.cache
 C:\Users\thiag\Desktop\2023_4S\Backend\ApiProduto\obj\Debug\net8.0\ref\ApiProduto.dll
+C:\Users\47195701867\Desktop\2023_4S\Backend\ApiProduto\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\47195701867\Desktop\2023_4S\Backend\ApiProduto\bin\Debug\net8.0\Moq.dll

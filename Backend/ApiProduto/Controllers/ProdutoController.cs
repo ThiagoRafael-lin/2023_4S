@@ -50,7 +50,7 @@ namespace ApiProduto.Controllers
             try
             {
                 _produtoRepository.Cadastrar(produto);
-                return Ok("Cadastrado!");
+                return Ok(produto);
             }
             catch (Exception e)
             {

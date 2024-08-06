@@ -36,6 +36,7 @@
 
 //app.Run();
 
+using ApiProduto.Interfaces;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -45,6 +46,8 @@ using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<IProdutoRepository>();
+    
 // Add services to the container.
 builder.Services
     .AddControllers()
@@ -56,41 +59,6 @@ builder.Services
             options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
         }
     );
-
-//Adiciona serviço de Jwt Bearer (forma de autenticação)
-//builder.Services.AddAuthentication(options =>
-//{
-//    options.DefaultChallengeScheme = "JwtBearer";
-//    options.DefaultAuthenticateScheme = "JwtBearer";
-//})
-
-//.AddJwtBearer("JwtBearer", options =>
-//{
-//    options.TokenValidationParameters = new TokenValidationParameters
-//    {
-//        //valida quem está solicitando
-//        ValidateIssuer = true,
-
-//        //valida quem está recebendo
-//        ValidateAudience = true,
-
-//        //define se o tempo de expiração será validado
-//        ValidateLifetime = true,
-
-//        //forma de criptografia e valida a chave de autenticação
-//        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("vital-webapi-chave-symmetricsecuritykey")),
-
-//        //valida o tempo de expiração do token
-//        ClockSkew = TimeSpan.FromMinutes(30),
-
-//        //nome do issuer (de onde está vindo)
-//        ValidIssuer = "Vital-WebAPI",
-
-//        //nome do audience (para onde está indo)
-//        ValidAudience = "Vital-WebAPI"
-//    };
-//});
-
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

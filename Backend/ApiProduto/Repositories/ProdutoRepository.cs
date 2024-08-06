@@ -2,6 +2,7 @@
 using ApiProduto.Controllers;
 using ApiProduto.Domains;
 using ApiProduto.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiProduto.Repositories
 {
@@ -19,24 +20,23 @@ namespace ApiProduto.Repositories
 
         public void Atualizar(Produto produto, Guid id)
         {
-            try
+            var produtoExistente = ctx.Produtos.Local.FirstOrDefault(p => p.IdProduct == id);
+
+            if (produtoExistente != null)
             {
-                var produtoBuscado = ctx.Produtos.FirstOrDefault(x => x.IdProduct == id);
-                if (produtoBuscado != null)
-                {
-                    produtoBuscado.Name = produto.Name;
-                    produtoBuscado.Price = produto.Price;
-
-                    ctx.Produtos.Update(produto);
-
-                    ctx.SaveChanges();
-                };
+                ctx.Entry(produtoExistente).CurrentValues.SetValues(produto);
             }
-            catch (Exception e)
+            else
             {
-
-                throw new Exception(e.Message);
+                ctx.Produtos.Attach(produto);
             }
+
+            ctx.SaveChanges();
+        }
+
+        public void Atualizar(Produto listaProdutoAtualizar)
+        {
+            throw new NotImplementedException();
         }
 
         public Produto BuscarPorId(Guid id)

@@ -11,6 +11,6 @@ namespace ApiProduto.Interfaces
         List<Produto> ListarTodos();
         void Deletar(Guid id);
         void Atualizar(Produto produto, Guid id);
-
+        void Atualizar(Produto listaProdutoAtualizar);
     }
 }
