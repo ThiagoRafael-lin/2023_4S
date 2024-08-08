@@ -1,0 +1,14 @@
+C:\Users\47195701867\Desktop\numeroAleatorio\bin\Debug\net8.0\numeroAleatorio.exe
+C:\Users\47195701867\Desktop\numeroAleatorio\bin\Debug\net8.0\numeroAleatorio.deps.json
+C:\Users\47195701867\Desktop\numeroAleatorio\bin\Debug\net8.0\numeroAleatorio.runtimeconfig.json
+C:\Users\47195701867\Desktop\numeroAleatorio\bin\Debug\net8.0\numeroAleatorio.dll
+C:\Users\47195701867\Desktop\numeroAleatorio\bin\Debug\net8.0\numeroAleatorio.pdb
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\numeroAleatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\numeroAleatorio.AssemblyInfoInputs.cache
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\numeroAleatorio.AssemblyInfo.cs
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\numeroAleatorio.csproj.CoreCompileInputs.cache
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\numeroAleatorio.dll
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\refint\numeroAleatorio.dll
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\numeroAleatorio.pdb
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\numeroAleatorio.genruntimeconfig.cache
+C:\Users\47195701867\Desktop\numeroAleatorio\obj\Debug\net8.0\ref\numeroAleatorio.dll

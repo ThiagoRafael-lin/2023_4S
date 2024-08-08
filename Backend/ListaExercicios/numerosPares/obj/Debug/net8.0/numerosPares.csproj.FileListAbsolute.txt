@@ -1,0 +1,14 @@
+C:\Users\47195701867\Desktop\numerosPares\bin\Debug\net8.0\numerosPares.exe
+C:\Users\47195701867\Desktop\numerosPares\bin\Debug\net8.0\numerosPares.deps.json
+C:\Users\47195701867\Desktop\numerosPares\bin\Debug\net8.0\numerosPares.runtimeconfig.json
+C:\Users\47195701867\Desktop\numerosPares\bin\Debug\net8.0\numerosPares.dll
+C:\Users\47195701867\Desktop\numerosPares\bin\Debug\net8.0\numerosPares.pdb
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\numerosPares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\numerosPares.AssemblyInfoInputs.cache
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\numerosPares.AssemblyInfo.cs
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\numerosPares.csproj.CoreCompileInputs.cache
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\numerosPares.dll
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\refint\numerosPares.dll
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\numerosPares.pdb
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\numerosPares.genruntimeconfig.cache
+C:\Users\47195701867\Desktop\numerosPares\obj\Debug\net8.0\ref\numerosPares.dll

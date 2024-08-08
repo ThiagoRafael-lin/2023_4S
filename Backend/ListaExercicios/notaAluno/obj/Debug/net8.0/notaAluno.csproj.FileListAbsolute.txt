@@ -1,0 +1,14 @@
+C:\Users\47195701867\Desktop\notaAluno\bin\Debug\net8.0\notaAluno.exe
+C:\Users\47195701867\Desktop\notaAluno\bin\Debug\net8.0\notaAluno.deps.json
+C:\Users\47195701867\Desktop\notaAluno\bin\Debug\net8.0\notaAluno.runtimeconfig.json
+C:\Users\47195701867\Desktop\notaAluno\bin\Debug\net8.0\notaAluno.dll
+C:\Users\47195701867\Desktop\notaAluno\bin\Debug\net8.0\notaAluno.pdb
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\notaAluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\notaAluno.AssemblyInfoInputs.cache
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\notaAluno.AssemblyInfo.cs
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\notaAluno.csproj.CoreCompileInputs.cache
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\notaAluno.dll
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\refint\notaAluno.dll
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\notaAluno.pdb
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\notaAluno.genruntimeconfig.cache
+C:\Users\47195701867\Desktop\notaAluno\obj\Debug\net8.0\ref\notaAluno.dll
