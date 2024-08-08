@@ -1,0 +1,15 @@
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\bin\Debug\net8.0\mediaAluno.exe
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\bin\Debug\net8.0\mediaAluno.deps.json
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\bin\Debug\net8.0\mediaAluno.runtimeconfig.json
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\bin\Debug\net8.0\mediaAluno.dll
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\bin\Debug\net8.0\mediaAluno.pdb
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\mediaAluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\mediaAluno.AssemblyInfoInputs.cache
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\mediaAluno.AssemblyInfo.cs
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\mediaAluno.csproj.CoreCompileInputs.cache
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\mediaAluno.sourcelink.json
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\mediaAluno.dll
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\refint\mediaAluno.dll
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\mediaAluno.pdb
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\mediaAluno.genruntimeconfig.cache
+C:\Users\47195701867\Desktop\2023_4S\Backend\ListaExercicios\mediaAluno\obj\Debug\net8.0\ref\mediaAluno.dll
