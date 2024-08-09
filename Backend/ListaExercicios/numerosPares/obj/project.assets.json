@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47195701867\\Desktop\\numerosPares\\numerosPares.csproj",
+      "projectUniqueName": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\ListaExercicios\\numerosPares\\numerosPares.csproj",
       "projectName": "numerosPares",
-      "projectPath": "C:\\Users\\47195701867\\Desktop\\numerosPares\\numerosPares.csproj",
+      "projectPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\ListaExercicios\\numerosPares\\numerosPares.csproj",
       "packagesPath": "C:\\Users\\47195701867\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47195701867\\Desktop\\numerosPares\\obj\\",
+      "outputPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\ListaExercicios\\numerosPares\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

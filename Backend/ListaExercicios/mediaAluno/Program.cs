@@ -1,11 +1,27 @@
-﻿Console.WriteLine("Digete 4 notas diferentes");
-int [] notas = [1, 6, 10];
+﻿Console.WriteLine("Digete as notas");
 
+int QuantidadeDeNotas = int.Parse(Console.ReadLine()!);
 
+int[] notas = new int[QuantidadeDeNotas];
+
+for (int i = 0; i < QuantidadeDeNotas; i++)
+{
+    System.Console.WriteLine($"Digite a nota {i + 1}");
+    notas[i] = int.Parse(Console.ReadLine()!);
+}
+
+Console.WriteLine("\nAs notas digitadas são:");
 foreach (int nota in notas)
 {
-    System.Console.WriteLine(nota);
+     
+    if (nota > 7)
+    {
+        System.Console.WriteLine($"{nota} você foi aprovado!");
+    } else {
+        System.Console.WriteLine($"{nota} você foi reprovado!");
+    }
 }
+
 
 
 

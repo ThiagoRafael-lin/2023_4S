@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mediaAluno")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+535ee7a1ddf98fe3463216f2d1ae691dd98bd721")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a82bbab844eb257a4f91acd22b1ebd6f82147f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("mediaAluno")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mediaAluno")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
