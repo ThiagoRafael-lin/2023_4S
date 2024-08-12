@@ -1,10 +1,14 @@
 ﻿
 
-// Console.WriteLine("Insira um numero de 1 a 10");
+Console.WriteLine("Digite um número para ver sua tabuada:");
+int numero = Convert.ToInt32(Console.ReadLine());
 
-// int numero = int.Parse(Console.ReadLine()!);
+GerarTabuada(numero);
 
-// for (int i = 1; i <= 10; i++)
-// {
-//     Console.WriteLine($"{numero} x {i} = {numero * i}");
-// }
+static void GerarTabuada(int numero)
+{
+    for (int i = 1; i <= 10; i++)
+    {
+        Console.WriteLine($"{numero} x {i} = {numero * i}");
+    }
+}
