@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +7,10 @@
 }
 
 #header-container {
-  background-color: rgb(51, 51, 224);
+  background-color: #1E52B4;
   height: 25rem;
 }
+
 #nav-container {
   display: flex;
   align-items: center;
@@ -15,7 +18,9 @@
   gap: 30px;
   color: #fff;
   margin-right: 100px;
+
 }
+
 #header-logo {
   height: 4%;
   width: 10%;
@@ -28,6 +33,7 @@
   margin-top: 25px;
   color: #fff;
   text-decoration: none;
+  font-family: "Lato", sans-serif;
 }
 
 #text-cadastro {
@@ -38,26 +44,32 @@
   padding-right: 30px;
   border-radius: 8px;
 }
+
 #textoPrincipal-container {
   color: #fff;
   margin-top: 80px;
   margin-left: 55px;
 }
+
 #textoPrincipal-h1 {
   margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
 }
+
 #textoPrincipal-text {
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
 }
 
 #textoPrincipal-imagem {
-  height: 35%;
+  height: 42%;
   width: 25%;
   position: absolute;
   left: 65%;
-  bottom: 55%;
+  bottom: 50%;
 }
+
 #flutuante-container {
   display: flex;
   justify-content: space-between;
@@ -68,9 +80,23 @@
   width: 50%;
   padding: 30px;
   border-radius: 5px;
-  position: fixed;
-  top: 47%;
+  position: absolute;
+  top: 50%;
   background-color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+#flutuante-forms {
+  border-right: 1px dashed black;
+  padding-right: 4.5%;
+  height: 20px;
+}
+
+#flutuante-icon {
+  position: absolute;
+  margin-top: 3px;
+  margin-left: -16px;
+
 }
 
 /* possivel gerador de problema */
@@ -78,6 +104,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 #card-button {
@@ -86,18 +113,132 @@ main {
   padding: 10px;
   border: rgb(11, 172, 11) solid 1px;
   border-radius: 5px;
+  font-family: "Lato", sans-serif;
 }
 
-#conteudo-container {
+/* #conteudo-container {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
   background-color: yellow;
   margin-top: 4%;
   gap: 50px;
 }
 
 #cards {
-  /* display: flex; */
   background-color: red;
+} */
+
+#conteudo-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3%;
+}
+
+#cards {
+  flex-basis: calc(25% - 10px);
+  margin: 5px;
+  margin-top: 4%;
+  font-family: "Lato", sans-serif;
+}
+
+#conteudo-titulo {
+  margin-bottom: 12px;
+}
+
+#imgRJ1 {
+  height: 70%;
+  width: 85%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+#final-container {
+  display: flex;
+  margin-top: 7%;
+  margin-right: 54%;
+  flex-direction: column;
+}
+
+#final-titulo {
+  margin-bottom: 7%;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+}
+
+#final-texto {
+  font-size: 25px;
+  margin-bottom: 15%;
+  font-family: "Lato", sans-serif;
+}
+
+#final-span-hoteis {
+  color: rgb(0, 0, 162);
+}
+
+#final-span-promocoes {
+  color: rgb(0, 155, 0);
+}
+
+#final-span-naoPercaTempo {
+  color: rgb(0, 155, 0);
+}
+
+#final-span-melhor {
+  color: rgb(221, 221, 3);
+}
+
+#final-logo {
+  position: absolute;
+  left: 60%;
+  top: 159%;
+  height: 45%;
+  width: 35%;
+}
+
+#footer-container {
+  background-color: #009C3B;
+  height: 10rem;
+
+}
+
+#footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+
+#footer-titulo {
+  margin-top: 2%;
+  /* margin-bottom: 1%; */
+}
+
+#footer-final {
+  background-color: #FFDF00;
+  margin-top: 2%;
+  height: 4rem;
+}
+
+#footer-bubbles-left {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+}
+
+#footer-bubbles-right {
+  height: 20%;
+  width: 20%;
+  margin-left: 80%;
+  position: absolute;
+  transform: scalex(-1);
+}
+
+#footer-final-logo {
+  margin-left: 45%;
+  margin-top: 1.5%;
+  height: 40%;
+  width: 10%;
 }
