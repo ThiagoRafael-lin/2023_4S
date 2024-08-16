@@ -1,28 +1,103 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 20px 0;
+#header-container {
+  background-color: rgb(51, 51, 224);
+  height: 25rem;
+}
+#nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 30px;
+  color: #fff;
+  margin-right: 100px;
+}
+#header-logo {
+  height: 4%;
+  width: 10%;
+  left: 55px;
+  top: 20px;
+  position: absolute;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    float: right;
+#text-header {
+  margin-top: 25px;
+  color: #fff;
+  text-decoration: none;
 }
 
-nav li {
-    display: inline-block;
-    margin-left: 20px;
+#text-cadastro {
+  margin-top: 25px;
+  border: #fff solid 1px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 8px;
+}
+#textoPrincipal-container {
+  color: #fff;
+  margin-top: 80px;
+  margin-left: 55px;
+}
+#textoPrincipal-h1 {
+  margin-bottom: 20px;
+}
+#textoPrincipal-text {
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
+#textoPrincipal-imagem {
+  height: 35%;
+  width: 25%;
+  position: absolute;
+  left: 65%;
+  bottom: 55%;
+}
+#flutuante-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border: #fff solid 1px;
+  height: 50px;
+  width: 50%;
+  padding: 30px;
+  border-radius: 5px;
+  position: fixed;
+  top: 47%;
+  background-color: #fff;
+}
+
+/* possivel gerador de problema */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card-button {
+  background-color: rgb(11, 172, 11);
+  color: #fff;
+  padding: 10px;
+  border: rgb(11, 172, 11) solid 1px;
+  border-radius: 5px;
+}
+
+#conteudo-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  background-color: yellow;
+  margin-top: 4%;
+  gap: 50px;
+}
+
+#cards {
+  /* display: flex; */
+  background-color: red;
 }
