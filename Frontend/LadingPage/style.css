@@ -116,17 +116,6 @@ main {
   font-family: "Lato", sans-serif;
 }
 
-/* #conteudo-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: yellow;
-  margin-top: 4%;
-  gap: 50px;
-}
-
-#cards {
-  background-color: red;
-} */
 
 #conteudo-container {
   display: flex;
@@ -213,7 +202,6 @@ main {
 
 #footer-titulo {
   margin-top: 2%;
-  /* margin-bottom: 1%; */
 }
 
 #footer-final {
@@ -241,4 +229,141 @@ main {
   margin-top: 1.5%;
   height: 40%;
   width: 10%;
+}
+
+@media screen and (max-width: 1199px) {
+
+  #cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+
+  }
+
+  /* FAZER O MENU HAMBURGE */
+  #nav-container {
+    font-size: 12px;
+    margin-left: 62%;
+    width: 30%;
+    /* visibility: hidden; */
+  }
+
+  #header-logo {
+    visibility: hidden;
+  }
+
+  #textoPrincipal-h1 {
+    position: absolute;
+    top: 14%;
+    right: 7%;
+    font-size: 22px;
+  }
+
+  #textoPrincipal-text {
+    font-size: 14px;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+
+  }
+
+  #textoPrincipal-imagem {
+    /* position: absolute;
+    margin-bottom: 65px;
+    width: 55%;
+    height: 20%;
+    left: 21%; */
+    /* display: none; */
+    visibility: hidden;
+  }
+
+  #flutuante-container {
+    position: absolute;
+    width: 80%;
+    height: 12%;
+    top: 30%;
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+
+  #flutuante-forms {
+    font-size: 10px;
+    margin-right: 25px;
+    margin-bottom: 19px;
+  }
+
+  #flutuante-icon {
+    /* position: absolute;
+    margin-top: 10px; */
+  }
+
+  #card-button {
+    font-size: 12px;
+  }
+
+  #conteudo-container {
+    flex-direction: column;
+    display: flex;
+    right: 30px;
+    margin-left: 25px;
+    margin-top: 10%;
+
+  }
+
+  #conteudo-texto {
+    font-size: 13px;
+  }
+
+  #final-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    width: 80%;
+  }
+
+  #final-titulo {
+    font-size: 18px;
+    margin-left: 8%;
+  }
+
+  #final-texto {
+    font-size: 14px;
+    margin-left: 8%;
+    /* margin-bottom: 58%; */
+  }
+
+  #final-logo {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 323%;
+    left: 26%;
+    visibility: hidden;
+  }
+
+  #footer-content {
+    /* margin-right: 30px; */
+  }
+
+  #footer-titulo {
+    font-size: 18px;
+  }
+
+  #footer-bubbles-left {
+    width: 40%;
+    height: 10%;
+  }
+
+  #footer-bubbles-right {
+    /* width: 30%;
+    height: 10%; */
+    visibility: hidden;
+  }
+
+  #footer-final-logo {
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 31%;
+  }
+
 }
