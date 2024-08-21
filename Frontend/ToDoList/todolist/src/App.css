@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-color: #8758ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#principal-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1e123b;
+  width: 650.81px;
+  height: 405.36px;
+  border-radius: 7.72px;
+  margin-top: 15%;
+}
+
+#principal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#dia-da-semana {
+  margin-top: 35px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+#dia-span {
+  color: #8758ff;
+}
+
+#procurar {
+  display: flex;
+  margin-top: 25px;
+  width: 100%;
+  border: #fff solid 1px;
+  background-color: transparent;
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  padding-left: 135px;
+}
+
+#dia-da-semana-icon {
+  position: absolute;
+  top: 26%;
+  left: 42.5%;
+  color: #fff;
+}
+
+#tarefas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#tarefas-content {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #6c45ce;
+  margin-top: 7px;
+  height: 50px;
+  width: 250%;
+  border-radius: 5px;
+}
+
+#tarefas-icon-edit {
+  position: absolute;
+  right: 31%;
+  color: #fff;
+  border: #fff solid 2px;
+  padding: 4px;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#tarefas-icon-close {
+  position: absolute;
+  right: 34%;
+  color: #fff;
+  border: #fff solid 2px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
+#checkbox {
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+#tarefa-texto {
+  font-family: "Open Sans", sans-serif;
+  font-weight: semi bold;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+#nova-tarefa-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 2%;
+  /* padding-right: 10%; */
+  /* background-color: red; */
+}
+
+#nova-tarefa-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #6c45ce;
+  color: white;
+  border: #fcfcfc solid 2px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
