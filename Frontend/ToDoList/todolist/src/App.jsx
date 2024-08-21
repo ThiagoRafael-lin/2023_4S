@@ -19,6 +19,27 @@ function App() {
   const diaFormatado = String(dia).padStart(2, '0');
 
   const [modalEstaVisivel, setModalEstaVisibel] = useState(false);
+  const [tarefas, setTarefas] = useState([
+    // {
+    //   id: 1,
+    //   texto: "Estudar React",
+    //   concluido: false
+    // },
+    // {
+    //   id: 2,
+    //   texto: "Estudar c#",
+    //   concluido: false
+    // },
+    // {
+    //   id: 3,
+    //   texto: "Estudar java",
+    //   concluido: false
+    // },
+  ])
+
+  const deletarTarefa = (id) => {
+    setTarefas(tarefas.filter(tarefa => tarefa.id !== id));
+  };
 
   const novaTarefaClicado = () => {
     setModalEstaVisibel(true);
@@ -27,6 +48,16 @@ function App() {
   const fecharNovaTarefa = () => {
     setModalEstaVisibel(false)
   };
+
+  const adicionarTarefa = (texto) => {
+    const novaTarefa = {
+      id: Math.random(), // Gera um ID único para a tarefa
+      texto,
+      concluido: false, // Supondo que você tenha uma opção para marcar tarefas como concluídas
+    };
+    setTarefas([...tarefas, novaTarefa]);
+  };
+
 
   return (
     <>
@@ -44,7 +75,22 @@ function App() {
 
           {/* AREA DE VISUAZLIAR TAREFAS */}
           <section id="tarefas-container">
-            <div id="tarefas-content">
+            {tarefas.map((tarefa) => (
+              <div id="tarefas-content">
+                <input id="checkbox" type="checkbox" name="" checked={tarefa.concluido} onChange={() => { }} />
+                <label id="tarefa-texto" htmlFor="">
+                  {tarefa.texto}
+                  {/* Começar a execução do projeto */}
+                </label>
+                <button id="tarefas-icon-close"  onClick={() => deletarTarefa(tarefa.id)}>
+                  <FontAwesomeIcon icon={faXmark} size="lg" />
+                </button>
+                <button id="tarefas-icon-edit" onClick={() => abrirFormularioEdicao(tarefa.id)}>
+                  <FontAwesomeIcon icon={faPen} />
+                </button>
+              </div>
+            ))}
+            {/* <div id="tarefas-content">
               <input id="checkbox" type="checkbox" name="" />
               <label id="tarefa-texto" htmlFor="">
                 Começar a execução do projeto
@@ -55,19 +101,7 @@ function App() {
               <button id="tarefas-icon-edit">
                 <FontAwesomeIcon icon={faPen} />
               </button>
-            </div>
-            <div id="tarefas-content">
-              <input id="checkbox" type="checkbox" name="" />
-              <label id="tarefa-texto" htmlFor="">
-                Começar a execução do projeto
-              </label>
-              <button id="tarefas-icon-close">
-                <FontAwesomeIcon icon={faXmark} size="lg" />
-              </button>
-              <button id="tarefas-icon-edit">
-                <FontAwesomeIcon icon={faPen} />
-              </button>
-            </div>
+            </div> */}
           </section>
         </div>
       </main>
@@ -77,7 +111,9 @@ function App() {
         <button id="nova-tarefa-button" onClick={setModalEstaVisibel}>Nova tarefa</button>
       </div>
 
-      {modalEstaVisivel && <Modal fecharModal={fecharNovaTarefa} />}
+      {modalEstaVisivel && <Modal fecharModal={fecharNovaTarefa} adicionarTarefa={adicionarTarefa} deletarTarefa={deletarTarefa} />}
+
+      {/* {modalEstaVisivel && <Modal fecharModal={fecharNovaTarefa} />} */}
 
 
     </>
