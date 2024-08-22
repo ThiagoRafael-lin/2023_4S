@@ -77,12 +77,17 @@ function App() {
           <section id="tarefas-container">
             {tarefas.map((tarefa) => (
               <div id="tarefas-content">
-                <input id="checkbox" type="checkbox" name="" checked={tarefa.concluido} onChange={() => { }} />
+                <input id="checkbox" type="checkbox" name="" checked={tarefa.concluido} onChange={(e) => {
+                  const index = tarefas.findIndex(task => task.id === tarefa.id);
+                  const newTasks = [...tarefas];
+                  newTasks[index].concluido = e.target.checked;
+                  setTarefas(newTasks);
+                }} />
                 <label id="tarefa-texto" htmlFor="">
                   {tarefa.texto}
                   {/* Começar a execução do projeto */}
                 </label>
-                <button id="tarefas-icon-close"  onClick={() => deletarTarefa(tarefa.id)}>
+                <button id="tarefas-icon-close" onClick={() => deletarTarefa(tarefa.id)}>
                   <FontAwesomeIcon icon={faXmark} size="lg" />
                 </button>
                 <button id="tarefas-icon-edit" onClick={() => abrirFormularioEdicao(tarefa.id)}>
