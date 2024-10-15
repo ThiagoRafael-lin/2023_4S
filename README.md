@@ -1,2 +1,2 @@
 # 2023_4S
-Esse repositorio foi criado para projetos feitos no Senai
+Esse repositório foi criado para projetos do 4 semestre, feitos no Senai
