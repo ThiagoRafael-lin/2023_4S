@@ -16,7 +16,7 @@ namespace sistema.Controllers
             return View();
         }
 
-        public IActionResult Logar(string email, string senha) 
+        public IActionResult Logar(string email, string senha)
         {
             var professor = _context.Professors.FirstOrDefault(p => p.Email == email && p.Senha == senha);
 
@@ -33,7 +33,12 @@ namespace sistema.Controllers
             return RedirectToAction("index", "Login");
         }
 
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
 
-
+            return RedirectToAction("Index", "Login");
+        }
     }
 }

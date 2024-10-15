@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47195701867\\Desktop\\thiago-domingues-rafael\\sistema\\sistema.csproj": {}
+    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\thiago-domingues-rafael\\sistema\\sistema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47195701867\\Desktop\\thiago-domingues-rafael\\sistema\\sistema.csproj": {
+    "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\thiago-domingues-rafael\\sistema\\sistema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47195701867\\Desktop\\thiago-domingues-rafael\\sistema\\sistema.csproj",
+        "projectUniqueName": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\thiago-domingues-rafael\\sistema\\sistema.csproj",
         "projectName": "sistema",
-        "projectPath": "C:\\Users\\47195701867\\Desktop\\thiago-domingues-rafael\\sistema\\sistema.csproj",
+        "projectPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\thiago-domingues-rafael\\sistema\\sistema.csproj",
         "packagesPath": "C:\\Users\\47195701867\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47195701867\\Desktop\\thiago-domingues-rafael\\sistema\\obj\\",
+        "outputPath": "C:\\Users\\47195701867\\Desktop\\2023_4S\\Backend\\thiago-domingues-rafael\\sistema\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
